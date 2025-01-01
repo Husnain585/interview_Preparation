@@ -6,6 +6,7 @@ let newArr = arr.filter((num) => {
 })
 
 console.log(newArr.length); 
+console.log(newArr);
 
 let findArr = arr.find((num) => {
     return num > 3;
