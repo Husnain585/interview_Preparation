@@ -95,5 +95,3 @@ console.log("2"-"2");
 // how can we add gradient in css
 // key frames in css
 // flexbox vs grid
-
-
