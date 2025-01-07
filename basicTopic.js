@@ -107,3 +107,39 @@ console.log(checkDay);
 let arr = [1,2,3,4,5,6];
 let checkArr = (arr.length > 5) ? "array is larger": " array is small";
 console.log(checkArr);
+
+// Type conversion and corecion 
+
+const typeNum = 123;
+const changeIntoStr = typeNum.toString();
+console.log(typeof changeIntoStr);
+const str = "123.45";
+const changeIntoNum = parseInt(str);
+// const changeIntoNum = parseFloat(str);
+// const changeIntoNum = Number(str);
+console.log(changeIntoNum);
+console.log(+str);
+
+console.log(Boolean(0));  // false
+console.log(Boolean(1));  // true
+console.log(Boolean("hello"));  // true
+console.log(Boolean(null));  // false
+console.log(Boolean("" > "abc")); // false
+
+// Short Circuiting 
+
+// Nullish Coalescing Operator (??)
+// The ?? operator returns the first non-null/undefined value.
+// It is useful when you want to avoid falsey traps from 0, false, or "".
+
+// result = value1 ?? value2;
+// Example 3:
+console.log(null ?? "Default"); // "Default"
+console.log(0 ?? "Default");    // 0 (not null/undefined)
+console.log(false ?? "Default");// false (not null/undefined)
+// Use Case (Avoiding Defaulting 0 or False):
+let count = 0;
+console.log(count ?? 5);  // 0, because 0 is not null or undefined
+
+// functions 
+// covered everyKind of function ananymous classic arrow defualt iife 
