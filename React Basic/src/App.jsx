@@ -1,33 +1,14 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import React from 'react'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      {/* Babeljs.io */}
+      {/* Babel (babeljs.io) is a JavaScript compiler commonly used in React development to transform modern JavaScript (ES6+) code into backward-compatible JavaScript that can run in older browsers. */}
+      {/* with the application is first time render the vitual dom is created and after that first refeclt the changing on virtual dom and result the result and after this complete process virtual dom refeclt the changing to real dom */}
+      {/* JSX is a javascript xhml extension which is used to wrap the javascript code into html to make it easy to understand and efficent  */}
+      {/* create a component  */}
+      {/* rfce comand is used */}
     </>
   )
 }
