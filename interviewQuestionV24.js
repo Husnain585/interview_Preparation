@@ -111,4 +111,3 @@ console.log(spacedStr);
 // Diff EM Tag vs  Italic Tag
 // Diff between bold tag vs strong tag
 // // why we prefer strong tag over bold tag
-// 

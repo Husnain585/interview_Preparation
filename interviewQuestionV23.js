@@ -76,7 +76,7 @@ two(null, 20);
 var sum  = 100 + score;
 var score = 200;
 console.log(sum);
-console.log(100 + undefined);
+console.log("hekl",100 + undefined);
 console.log("2"-"2");
 // what is word element in html
 // what is empty tag in html
