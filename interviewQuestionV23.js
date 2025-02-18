@@ -38,9 +38,7 @@ console.log(obj);
 
 //
 
-let a = [1,2,3,4,5,[2,4,5,6]];
-let {0: oINDEX, 1: fINDEX} = a;
-console.log(oINDEX, fINDEX);
+
 
 // 
 function myFunc(a, ...b){
@@ -82,16 +80,21 @@ console.log("2"-"2");
 // what is empty tag in html
 // types of list
 // types of descrptive list
-//what is dt tag in descriptive list
+// what is dt tag in descriptive list
 // what is data list tag and select in descriptive list
 // col span and row span
 // html vs xml
 // html vs xhtml
 // em vs i tag
- // fig caption tag in html
+//  fig caption tag in html
 // required attribute in html
 // attribute selector in css
-//pripority selector
+// pripority selector
 // how can we add gradient in css
 // key frames in css
 // flexbox vs grid
+
+
+let a = [1,2,3,4,5,[2,4,5,6]];
+let {0: oINDEX, 1: fINDEX} = a;
+console.log(oINDEX, fINDEX);

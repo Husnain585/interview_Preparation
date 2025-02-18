@@ -1,25 +1,25 @@
-// console.log(x);
-// var x;
-// console.log(x);
-// x = 5;
+console.log(x);
+var x;
+console.log(x);
+x = 5;
 
-// // console.log(a);
+// console.log(a);
 // let a = 5;
 
-// let str = "hello";
+let str = "hello";
 
-// let numStr = Number(str);
-// console.log(numStr);
+let numStr = Number(str);
+console.log(numStr);
 
-// console.log(null ?? null ?? undefined); 
+console.log(null ?? null ?? undefined); 
 
-// let matrix = [
-//     [1, 2, 3],
-//     [4, 5, 6],
-//     [7, 8, 9]
-// ];
+let matrix = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+];
 
-// console.log(matrix[0][2]); 
+console.log(matrix[0][2]); 
 
 
 /* ***************Starting************************************ */
@@ -28,6 +28,7 @@ let arr = ["apple", 20, true, "Banana", "Nothing"];
 console.log(arr);
 console.log(arr[3]);
 arr.push("Hello");
+console.log(arr);
 arr.pop("Hello");
 arr[3] = false;
 console.log(arr);
