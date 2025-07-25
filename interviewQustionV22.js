@@ -1,3 +1,3 @@
-console.log("">=1);
-console.log(""==true);
-console.log("">"");
+console.log("">=1); // false    
+console.log(""==true); // false
+console.log("">""); // ttrue

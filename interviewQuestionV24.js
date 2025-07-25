@@ -1,17 +1,18 @@
-// const obj = {
-//     test: "value1",
-//     age: 20,
-//     salary : 800000
-// }
-// const obj2 = obj;
-// obj2.test = "value2";
-// console.log(obj);
-// console.log(obj2);
+const obj = {
+    test: "value1",
+    age: 20,
+    salary : 800000
+}
+console.log(obj)
+const obj2 = obj;
+obj2.test = "value2";
+console.log(obj);
+console.log(obj2);
 
-// const obj3 = {...obj2};
-// obj3.test = "value2";
-// console.log(obj);
-// console.log(obj3);
+const obj3 = {...obj2};
+obj3.test = "value3";
+console.log(obj);
+console.log(obj3);
 
 // Every method in js 
 // const numbers = [2, 4, 6, 8];
