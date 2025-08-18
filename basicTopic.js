@@ -44,7 +44,7 @@ console.log(Object.is(NaN, NaN)); // true, because NaN is equal to NaN
 console.log(Object.is(5, 5));     // true, both value and type are the same
 console.log("**********************");
 // Operator Precedence
-// is k matlb tarje dena ek operator pr kisi dosry operator ko 
+// is k matlb tarji dena ek operator pr kisi dosry operator ko 
 // AND (&&) has a higher precedence than OR (||).
 // NOT (!) has the highest precedence among the logical operators
 

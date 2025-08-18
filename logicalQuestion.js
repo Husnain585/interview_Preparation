@@ -23,9 +23,14 @@ function reverseNumber(num) {
         let toNumber = parseInt(reverseNumber);
         console.log(toNumber);
 }
-let number = 12345;
-// reverseNumber(number); 
+let number = 54321;
+reverseNumber(number); 
 
 function factorial(fact) {
-    
+    if (fact === 0 || fact === 1) {
+        return 1;
+    } else {
+        return fact * factorial(fact - 1);
+    }
 }
+console.log(factorial(5)); // Output: 120

@@ -1,15 +1,15 @@
-console.log(x); 
+console.log(x); // undefine
 var x;
 console.log(x);
 x = 5;
 
-// console.log(a);
+// console.log(a); // ReferenceError: Cannot access 'a' before initialization
 // let a = 5;
 
 let str = "hello";
 
 let numStr = Number(str);
-console.log(numStr);
+console.log("Converting a string into number" , numStr);
 
 console.log(null ?? null ?? undefined); 
 
@@ -38,11 +38,11 @@ console.log(cars);
 let arrStr = arr.toString();
 console.log(arrStr);
 let arrString = arr.at(3);
-console.log(arrString);
+console.log( "array to string", arrString);
 let newStr  = arr.join("* *");
 console.log(newStr);
 let ne = arr.unshift("new");
-console.log(ne);
+console.log("unshift",ne);
 
 // Shallow Copy
 // copy the most top level elements but at very next level element reference can be copied and which elements are
@@ -78,6 +78,7 @@ const originals = {
 
 // Creating a deep copy using JSON methods
 const deepCopy = JSON.parse(JSON.stringify(originals));
+console.log("deep copy" ,deepCopy);
 
 // Modifying the deep copy
 deepCopy.address.city = "Los Angeles";
