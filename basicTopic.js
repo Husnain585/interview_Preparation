@@ -143,3 +143,14 @@ console.log(count ?? 5);  // 0, because 0 is not null or undefined
 
 // functions 
 // covered everyKind of function ananymous classic arrow defualt iife 
+
+
+ let string = "42.99"; 
+ let number = parseInt(string);
+ let floatingNumber = parseFloat(string);
+ console.log(number); // 42 
+console.log(floatingNumber); // 42.99
+
+let Number = string.Number();
+console.log(Number); 
+
