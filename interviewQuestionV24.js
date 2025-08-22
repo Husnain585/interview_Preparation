@@ -3,11 +3,12 @@ const obj = {
     age: 20,
     salary : 800000
 }
-console.log(obj)
+// console.log(obj)
 const obj2 = obj;
-obj2.test = "value2";
-console.log(obj);
-console.log(obj2);
+// console.log(obj2);
+// obj2.test = "value2";
+// console.log(obj);
+// console.log(obj2);
 
 const obj3 = {...obj2};
 obj3.test = "value3";
