@@ -8,6 +8,8 @@ let fun = () => {
 }
 console.log(fun);
 
+// temolate literal
+
 let name = "Husnain";
 let temp = `Hi ${name}, Nice to meet you!`;
 console.log(temp);

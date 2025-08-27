@@ -15,3 +15,5 @@ if(function f(){}) {
     abc = abc + typeof f
 }
 console.log(abc);
+
+//

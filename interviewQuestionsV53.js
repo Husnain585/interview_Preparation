@@ -119,3 +119,4 @@ abc.call({name: "husnain"}); // husnain
 // what is dynamic routing
 // normal routing and dynamic routing 
 
+

@@ -13,8 +13,7 @@ let findArr = arr.find((num) => {
 })
 console.log(findArr); // 4, 5
 
-// 
-
+// closure 
 function sum(a){
     return function(b){
         if(!b){
