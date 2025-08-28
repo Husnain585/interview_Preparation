@@ -35,4 +35,4 @@ function factorial(fact) {
 }
 console.log(factorial(5)); // Output: 120
 
-// 
+// for loop
